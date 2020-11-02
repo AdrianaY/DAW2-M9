@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', 'sans-serif';
+    /*border: 1px solid red; */
+ }
+ 
+ body {
+    margin: 0.5rem;
+    padding: 0.5rem;
+ }
+ 
+ .main-container {
+   display: flex;
+    margin: auto;
+    max-width: 960px;
+ }
+
+ h1{
+    text-transform: uppercase;
+    text-align: right;
+   
+ }
+
+ h3{
+    
+    font-size: small;
+    text-transform: uppercase;
+    counter-reset: grey;
+ }
+
+ h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #bcbbbb;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0px;
+ }
+
+ h4{
+    text-align: right;
+    text-transform: uppercase;
+ }
+
+ hr{
+    border: thin solid #bcbbbb;
+    margin-bottom: 1.5rem;
+ }
+ 
