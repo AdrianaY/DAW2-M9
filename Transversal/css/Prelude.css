@@ -707,7 +707,6 @@ footer{
 
     #ini{
      width: 120%;
-     background-color: red;
      margin-left: auto;
      margin-right: auto;
     }
@@ -740,7 +739,6 @@ footer{
    .sub1{
     display: inline-block;
     width: 30%;
-    background-color: blue;
    }
 }
 
@@ -749,8 +747,6 @@ footer{
 
     #ini{
      flex-direction: column;
-     background-color: red;
-   
     }
     #logo{
        flex-direction: column;
@@ -758,7 +754,6 @@ footer{
     }
     #b{
        flex-direction: column;
-       background-color: red;
     }
 
     #logos{
