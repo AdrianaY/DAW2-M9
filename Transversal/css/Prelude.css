@@ -1,0 +1,771 @@
+*{
+    margin: 0px;  
+    font-family: 'Open Sans';  
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#contenedor{
+    height: 20000px;
+}
+
+/*-----------Logo------------------------------------*/
+#logo{
+    justify-content: space-between;
+    display: flex; 
+    width: 200px;
+    height: 80px;
+    max-width: 100%;
+}
+
+/*----------------------------Menu----------------------------------------*/
+#ini{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#boton{
+    display: flex;
+    background-color:seagreen;
+    width: 120px;
+    height: 45px;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    font-style: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.compra{
+    padding-left: 10px;
+    max-width: 100%;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.Bloc-a{
+    justify-content: space-between;
+    margin: auto;
+ }
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul a{
+    display: block;
+    letter-spacing: 1px;
+    width: 90px;
+    height: 40px;
+    padding-top: 0px;
+}
+
+/*-----------------------Elementos del menu--------------------------*/
+#menu ul li{
+    position: relative;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+#menu ul li:hover{
+    background: white;
+}
+ 
+/*----------------------Menu desplegable------------------------------*/
+
+#menu ul ul{
+    display: none;
+    position: absolute;
+    background-color:gainsboro;
+    padding:0px;
+    width: 20px;
+}
+
+#menu ul ul a{
+    width: 70px;
+    height: 20px;
+    text-decoration: none;
+}
+
+#menu ul li:hover > ul{
+    display: block;
+    width: 105px;
+    text-align: left;
+}
+
+h1{
+    padding-top: 20px;
+}
+
+/*---------------------------------Bloc b--------------------------*/
+.Bloc-b{ 
+    margin-top: 5px;
+    min-width: 100%;
+    background-size: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/1.jpg");
+    background-position-y: 2px; 
+}
+
+#b{
+    width: 30%;
+    height: 30%;
+    margin-left: 15%;   
+    top: 40px;
+    padding-top: 10%;
+}
+
+#sub{
+    font-size: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.apps{
+    padding-top: 40px;
+    margin-left: -5px;   
+}
+
+#logos{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+#title1{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/*---------------------------------------Bloc-c-------------------------------*/
+
+#Bloc-c{
+    width: 98%;
+    margin-top: 100px;
+    margin-left: 7px;
+}
+
+.uno{
+    text-align: center;
+    color:green;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+.dos{
+    font-weight: lighter; 
+    margin-top: 5px; 
+    font-size: 35px;
+    text-align: center;
+}
+
+.cuatro{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+#tres{
+    text-align: center;
+    margin-top: 25px;  
+    font-size: 20px;
+}
+
+h3{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/*---------------------------------------Bloc-d-------------------------------*/
+#Bloc-d{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    justify-content: center;
+}
+
+.icon3{
+    max-width: 120px;
+    margin-top: 60px;  
+}
+
+#text{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.sub{
+    text-align: center;
+    max-width: 33rem;
+    max-height: 400px;
+    color: gray;
+    margin-bottom: 70px;
+}
+
+.title{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+hr{ 
+    display: flex;
+    background-color: grey;
+    width: 20px;
+    height: 4px;
+    margin: auto;
+}
+
+/*---------------------------------------Bloc-e-------------------------------*/
+#Bloc-e{
+    background-image: url("../img/bk.png");
+    background-size: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 2px; 
+    margin-bottom: 120px;
+}
+
+#video{
+    display: flex;
+    margin-top: 10px;
+    max-width: 100%;
+    margin-bottom: 70px;
+    margin: auto;
+    width: 47rem;
+}
+
+#a{
+    display: flex;
+    font-weight: bold;
+    margin: auto;
+}
+
+.sub1{
+    text-align: center;
+    margin-left: 160px;
+    margin-top: 90px;
+    max-width: 33rem;
+    max-height: 400px;
+    justify-content: center;
+}
+
+.title2{
+    font-size: 20px;
+}
+
+.description{
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#rosa{
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: pink;
+    margin: auto;
+    align-items: center;
+    color: white;
+    size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.circulo{
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color:white;
+    margin: auto;
+    align-items: center;
+    color: green;
+    size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/*---------------------------------------Bloc-f-------------------------------*/
+#Bloc-f{
+    width: 75%;
+    height: 500px;
+    margin-top: 100px;
+    margin: auto;
+}
+
+#box-container{
+    display: flex;
+    font-weight: bold;
+}
+
+.box{
+    text-align: left;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.text{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#title3{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: green;
+}
+
+h4{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#title4{
+    font-size: 45px;  
+    margin-bottom: 15px;  
+    font-weight: bold;
+}
+
+#mvl2{
+    position: relative;
+    height: 300px;
+    width: 300px;   
+    bottom: 260px;
+    right: 250px;
+}
+
+#tablet{
+    position: relative;
+    height: 350px;
+    width: 300px;
+    right: -210px;
+    top: -140px;
+}
+
+#icon4{
+    position: absolute;
+    width: 170px;
+    left: 735px;
+    bottom: -1970px;
+}
+
+.text1{
+    display: inline-flex;
+    font-size: 13px;
+}
+
+/*---------------------------------------Bloc-g-------------------------------*/
+
+#Bloc-g{
+    width: 100%;
+    height: 20%; 
+}
+
+.box1{
+    display: flex;
+    height: 160px;
+    width: 1050px;
+    margin: auto;
+    margin-bottom: 70px;  
+}
+
+.box-g{
+    width: 350px;
+    height: 150px;
+}
+
+.title-g{
+    font-size: 20px;
+    width: 310px;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.text-g{
+    height: 60px;
+    width: 350px;
+    margin: auto;
+    margin-right: 250px; 
+    margin-top: 35px; 
+    font-size: 16px;
+}
+
+.img-g{
+    width: 130px;
+    height: 130px;
+    margin-left: 30px;
+}
+
+/*---------------------------------------Bloc-h-------------------------------*/
+
+#Bloc-h{
+    width: 100%;
+    height: 900px;
+    background-image: url("../img/bk2.png");
+    background-size: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -3620px;
+    background-position-y:5px;
+    padding-top: 20px;
+}
+
+#pos1{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    position: relative; 
+    top: 40px;
+    bottom: 100px;
+}
+
+#pos2{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 270px;
+    left: 225px;
+}
+
+#pos3{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 640px;
+    left: 466px;
+}
+    
+.p1{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius:10px;    
+}
+
+.img-h{
+    width:70px;
+    height:70px;
+    border-radius:150px;
+}
+
+#title-h{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 170px;
+}
+
+#sub-h{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+    margin-top: 0px; 
+}
+
+/*---------------------------------------Bloc-i-------------------------------*/
+
+#Bloc-i{
+    margin-top: -105px;
+    margin-bottom: -160px;
+}
+
+#img-i{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/*---------------------------------------Bloc-j-------------------------------*/
+#Bloc-j{
+    width: 100%;
+    height: 3%;
+    background-image: url("../img/fondo2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y:2px ;
+    margin-top: 450px;
+    border: 1px solid white;
+}
+
+#title-j{
+    text-align: left;
+    margin-left: 200px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 150px;
+    display: block;
+}
+
+#title-uno{
+    font-size: 35px;
+    font-weight: lighter;
+    margin-left: 200px;
+}
+
+#sub-j{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#img-j{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    width: 150px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.img-b{
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+/*---------------------------------------Bloc-k-------------------------------*/
+
+#Bloc-k{
+    width: 650px;
+    height: 230px;
+    display: flex;
+    margin: auto;
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 7px;
+    justify-content: center;
+    text-align: center;
+}
+
+#title-k{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+#text-k{
+    color: grey;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#text{
+    width: 440px;
+    height: 35px;
+    border-radius: 44px;
+    border-color:grey;
+    margin-top: 40px;
+}
+
+/*---------------------------------------Bloc-l-------------------------------*/
+
+#Bloc-l{
+    display: flex;
+    margin:auto;
+    width: 70%;
+    height: 250px;
+    margin-top: 100px;
+}
+
+#prelude{
+    width:25%;
+    height: 250px;
+}
+
+#text-prelude{
+    margin-top: -30px;
+    font-size: 14px;
+    color: grey;
+    font-weight: bold;
+}
+
+#logo-l{
+    width: 120px;
+    margin-bottom: 50px;
+}
+
+.icono-l{
+    margin-left: 5px;
+    margin-top: 80px;
+    height: 40px;
+    width: 40px;
+}
+
+#sub-menu, li, a{
+   display: flex;
+   list-style: none;
+   text-decoration: none;
+   margin-bottom: 10px;
+   color:black;
+   font-weight: lighter;
+   font-size: 14px;
+   margin-left: 30px;
+}
+
+.indice{
+    font-size: 17px;
+    font-weight: bold;
+    color:rgb(#504E4C);
+    margin-bottom:25px;
+    margin-left: 58px;  
+    font-style: normal;
+    margin-top: 40px;
+}
+
+#dif{
+    text-decoration-line: underline;
+    color: green;
+    font-weight: bold;
+}
+
+#dif1{
+    color: green;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 60px;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+address{
+    width: 18%;
+    height: 20%;
+    margin-left: 10px;
+}
+
+#text-l{
+    font-size: 14px;
+    font-style: normal;
+    margin-left: 60px;
+}
+
+/*---------------------------------------Bloc-m-------------------------------*/
+
+#Bloc-m{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.f1{
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+}
+
+#hr{
+    border-style:solid;
+    border-color: grey;
+    width: 70%;
+    height: -0px;
+    margin-top: 40px;
+    margin-bottom: -40px;
+   background-color:grey;
+}
+
+footer{
+    background-image: url("../img/bk2.png");
+    background-size: 100%;
+    background-position-y:102px;
+}
+
+/*------------------------------------Responsive------------------------------*/
+/*Nomes está fet el responsive de les tres franges que vas dir a clase, no de tot el css*/
+/*----------------------Tablet-------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #ini{
+     width: 120%;
+     margin-left: auto;
+     margin-right: auto;
+    }
+    #logo{
+        width: 15%;
+        height: 20%;
+        margin: auto;
+    }
+    #b{
+       display: inline;
+    }
+    #logos{
+        width: 20%;
+        margin: auto;
+    }
+    .sub{
+        display:inline-block;
+        width: 50%;
+    }
+    #mvl{
+       width: 50%;
+       margin: auto;
+       margin-top: 7%;
+   }
+   .sub1{
+    display: inline-block;
+    width: 30%;
+   }
+}
+
+/*----------------------Mvl-------------------------------------------*/
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    #ini{
+     flex-direction: column;
+    }
+    #logo{
+       flex-direction: column;
+       margin: auto;
+    }
+    #b{
+       flex-direction: column;
+    }
+    #logos{
+        width: 20%;
+        margin: auto;
+    }
+    .sub{
+        display:inline-block;
+        width: 50%;
+    }
+    #mvl{
+       width: 50%;
+       margin: auto;
+       margin-top: 20%;
+   }
+   #a{
+       display: flex;
+       flex-direction: column;
+       margin: auto;
+   }
+}
